@@ -1,0 +1,14 @@
+C:\Users\Tehno\source\repos\Lab22\Lab22\bin\Debug\netcoreapp3.1\Lab22.exe
+C:\Users\Tehno\source\repos\Lab22\Lab22\bin\Debug\netcoreapp3.1\Lab22.deps.json
+C:\Users\Tehno\source\repos\Lab22\Lab22\bin\Debug\netcoreapp3.1\Lab22.runtimeconfig.json
+C:\Users\Tehno\source\repos\Lab22\Lab22\bin\Debug\netcoreapp3.1\Lab22.runtimeconfig.dev.json
+C:\Users\Tehno\source\repos\Lab22\Lab22\bin\Debug\netcoreapp3.1\Lab22.dll
+C:\Users\Tehno\source\repos\Lab22\Lab22\bin\Debug\netcoreapp3.1\Lab22.pdb
+C:\Users\Tehno\source\repos\Lab22\Lab22\obj\Debug\netcoreapp3.1\Lab22.csproj.AssemblyReference.cache
+C:\Users\Tehno\source\repos\Lab22\Lab22\obj\Debug\netcoreapp3.1\Lab22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tehno\source\repos\Lab22\Lab22\obj\Debug\netcoreapp3.1\Lab22.AssemblyInfoInputs.cache
+C:\Users\Tehno\source\repos\Lab22\Lab22\obj\Debug\netcoreapp3.1\Lab22.AssemblyInfo.cs
+C:\Users\Tehno\source\repos\Lab22\Lab22\obj\Debug\netcoreapp3.1\Lab22.csproj.CoreCompileInputs.cache
+C:\Users\Tehno\source\repos\Lab22\Lab22\obj\Debug\netcoreapp3.1\Lab22.dll
+C:\Users\Tehno\source\repos\Lab22\Lab22\obj\Debug\netcoreapp3.1\Lab22.pdb
+C:\Users\Tehno\source\repos\Lab22\Lab22\obj\Debug\netcoreapp3.1\Lab22.genruntimeconfig.cache
