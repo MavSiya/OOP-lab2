@@ -6,11 +6,13 @@ namespace Lab22
     public class GameAccount // батьківський акаунт для інших видів акаунтів   
     {
 
-        public string UserName { get; } 
+        public string UserName { get; }
+        public int UserTurn { get; set; }
         public GameAccount() { }
-        public GameAccount(string UserName)
+        public GameAccount(string UserName, int UserTurn)
         {
             this.UserName = UserName;
+            this.UserTurn = UserTurn;
         }
 
         public int GamesCount //Метод допомагає порахувати кількість зіграних ігор на цьому аккаунті
@@ -78,12 +80,12 @@ namespace Lab22
 
             int sumRating = 20;
             int index = 0;
-            report.AppendLine("#\tName\tOpponent\tRating\tNote\tAmount\tType Game");
+            report.AppendLine("#\tName\tOpponent\tRating\t\tNote\t\tAmount\t\tType Game");
             foreach (var item in dataPlayer)
             {
                 sumRating += item.Amount;
                 index += item.NumberOfGames;
-                report.AppendLine($"{index}\t{UserName}\t{item.Opponent}\t\t{sumRating}\t{item.Note}\t{item.Amount}\t{item.TypeGame}");
+                report.AppendLine($"{index}\t{UserName}\t{item.Opponent}\t\t{sumRating}\t\t{item.Note}\t\t{item.Amount}\t\t{item.TypeGame}");
             }
             return report.ToString();
         }

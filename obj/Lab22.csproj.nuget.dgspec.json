@@ -4,6 +4,16 @@
     "C:\\Users\\Tehno\\source\\repos\\Lab22\\Lab22\\Lab22.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Tehno\\source\\repos\\Lab22\\Board\\BoardLogic.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tehno\\source\\repos\\Lab22\\Board\\BoardLogic.csproj",
+        "projectName": "BoardLogic",
+        "projectPath": "C:\\Users\\Tehno\\source\\repos\\Lab22\\Board\\BoardLogic.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\Tehno\\source\\repos\\Lab22\\Lab22\\Lab22.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +37,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Tehno\\source\\repos\\Lab22\\Board\\BoardLogic.csproj": {
+                "projectPath": "C:\\Users\\Tehno\\source\\repos\\Lab22\\Board\\BoardLogic.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

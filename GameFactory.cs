@@ -12,9 +12,9 @@ namespace Lab22
             return new GameBase(user1, user2, rating);
         }
 
-        public static Game GetGameSingle(GameAccount user1, int rating)
+        public static Game GetGameVsCPU(GameAccount user1, int rating)
         {
-            return new GameSingle(user1, rating);
+            return new GameVsCPU(user1, rating);
         }
 
         public static Game GetGameTraining(GameAccount user1, GameAccount user2)

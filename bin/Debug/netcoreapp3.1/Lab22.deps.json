@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "Lab22/1.0.0": {
+        "dependencies": {
+          "BoardLogic": "1.0.0"
+        },
         "runtime": {
           "Lab22.dll": {}
+        }
+      },
+      "BoardLogic/1.0.0": {
+        "runtime": {
+          "Board.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Lab22/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BoardLogic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

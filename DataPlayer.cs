@@ -6,6 +6,7 @@ namespace Lab22
 {
     public class DataPlayer
     {
+      
         public int NumberOfGames { get; }
         public string Opponent { get; }
         public string Note { get; }
@@ -15,6 +16,7 @@ namespace Lab22
 
         public DataPlayer(int index, string oponnent, string note, int amount, string type)
         {
+            
             NumberOfGames = index;
             Note = note;
             Opponent = oponnent;

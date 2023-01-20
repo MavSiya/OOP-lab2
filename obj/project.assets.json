@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "BoardLogic/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/BoardLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BoardLogic.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BoardLogic/1.0.0": {
+      "type": "project",
+      "path": "../Board/BoardLogic.csproj",
+      "msbuildProject": "../Board/BoardLogic.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "BoardLogic >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Tehno\\.nuget\\packages\\": {}
@@ -33,7 +51,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Tehno\\source\\repos\\Lab22\\Board\\BoardLogic.csproj": {
+              "projectPath": "C:\\Users\\Tehno\\source\\repos\\Lab22\\Board\\BoardLogic.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

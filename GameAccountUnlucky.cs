@@ -6,8 +6,8 @@ namespace Lab22
     {
 
         public GameAccountUnlucky() { }
-        public GameAccountUnlucky(string userName)
-                : base(userName)
+        public GameAccountUnlucky(string userName, int userTurn)
+                : base(userName, userTurn)
         { }
 
         public override void LoseGame(string oponnent, Game game, string type)

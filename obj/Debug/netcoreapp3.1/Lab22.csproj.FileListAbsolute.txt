@@ -12,3 +12,6 @@ C:\Users\Tehno\source\repos\Lab22\Lab22\obj\Debug\netcoreapp3.1\Lab22.csproj.Cor
 C:\Users\Tehno\source\repos\Lab22\Lab22\obj\Debug\netcoreapp3.1\Lab22.dll
 C:\Users\Tehno\source\repos\Lab22\Lab22\obj\Debug\netcoreapp3.1\Lab22.pdb
 C:\Users\Tehno\source\repos\Lab22\Lab22\obj\Debug\netcoreapp3.1\Lab22.genruntimeconfig.cache
+C:\Users\Tehno\source\repos\Lab22\Lab22\bin\Debug\netcoreapp3.1\Board.dll
+C:\Users\Tehno\source\repos\Lab22\Lab22\bin\Debug\netcoreapp3.1\Board.pdb
+C:\Users\Tehno\source\repos\Lab22\Lab22\obj\Debug\netcoreapp3.1\Lab22.csproj.CopyComplete

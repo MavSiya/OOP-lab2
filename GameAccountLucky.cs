@@ -5,8 +5,8 @@ namespace Lab22
     class GameAccountLucky : GameAccount // Створюю акаунт, у якому при перемозі рейтинг подвоюється. Клас є дочірнім від GameAccount
     {
         public GameAccountLucky() { }
-        public GameAccountLucky(string userName)
-                : base(userName)
+        public GameAccountLucky(string userName, int userTurn)
+                : base(userName, userTurn)
         { }
 
         public override void WinGame(string oponnent, Game game, string type)
